@@ -1,3 +1,7 @@
  .col-5 h1{
     color: #77778D;
+    cursor: pointer;
  } 
+ .section3 .row h1{
+   color:#939393;
+ }
