@@ -2,6 +2,24 @@
     color: #77778D;
     cursor: pointer;
  } 
+ .section2 h1, i{ 
+  cursor: pointer;
+ }
+ 
  .section3 .row h1{
    color:#939393;
+ }
+ .button-1 a{
+  color: #77778D;
+  text-decoration: none; 
+  
+ }
+ .button-1 ul{
+  list-style: none;
+ }
+ .button-1 img{
+  width: 20px;
+ }
+ .button-1{
+  border: 1px solid #939393 ;
  }
