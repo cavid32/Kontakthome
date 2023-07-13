@@ -23,3 +23,33 @@
  .button-1{
   border: 1px solid #939393 ;
  }
+ .xett{
+  border: 1px solid #939393;
+  margin: 5px 0px;
+ }
+ .xett-1{
+  width: 1px;
+  border: 1px solid #939393;
+  height: 20px;
+  align-content: center;
+
+
+ }
+ .text-2{
+  border: 1px solid blue;
+  border-top: 0;
+  border-radius: 5px;
+ }
+ .text-3{
+  border: 1px solid red;
+  border-top: 0;
+  border-radius: 5px;
+ }
+ .velosiped {
+  text-decoration:line-through;
+  
+ }
+ .endirim{
+  color: red;
+ }
+ 
