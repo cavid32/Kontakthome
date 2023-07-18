@@ -52,4 +52,22 @@
  .endirim{
   color: red;
  }
+ .kondisioner{
+  text-decoration:line-through;
+ }
+ .endirim-1{
+  color: green;
+ }
+ 
+ .mebel{
+  text-decoration: line-through;
+  
+ }
+ .endirim-2{
+  color: blue;
+ }
+ .qapi{
+  border: 1px solid #b9b9b9;
+ }
+
  
