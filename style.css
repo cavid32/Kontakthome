@@ -69,5 +69,26 @@
  .qapi{
   border: 1px solid #b9b9b9;
  }
-
+.col-6 .img{
+  border:1px solid #b9b9b9;
+  cursor: pointer;
+}
+.text--1{
+  border: 1px solid red;
+  border-radius: 5px;
+  width: 50px;
+  height: 22px;
+}
+.text--2{
+  border: 1px solid rgb(71, 71, 248);
+  border-radius: 5px;
+  height: 25  px;
+  
+}
+.text--2 h1{
+font-size: 15px;
+}
+.btn-success{
+  cursor: pointer;
+}
  
