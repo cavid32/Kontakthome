@@ -1,12 +1,21 @@
- .col-5 h1{
+*{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.col-5 h1{
     color: #77778D;
     cursor: pointer;
  } 
- .section2 h1, i{ 
+ .section2 span, i{ 
   cursor: pointer;
  }
  
- .section3 .row h1{
+ .section3 .row span{
    color:#939393;
  }
  .button-1 a{
@@ -23,10 +32,7 @@
  .button-1{
   border: 1px solid #939393 ;
  }
- .xett{
-  border: 1px solid #939393;
-  margin: 5px 0px;
- }
+ 
  .xett-1{
   width: 1px;
   border: 1px solid #939393;
@@ -85,10 +91,48 @@
   height: 25  px;
   
 }
-.text--2 h1{
+.text--2 span{
 font-size: 15px;
 }
 .btn-success{
   cursor: pointer;
 }
- 
+.line{
+  color: #77778D;
+  height: 5px;
+  width: 10px;
+}
+ .category-menu img{
+  object-fit: contain;
+ }
+ .category-menu a{
+   display: flex;
+   margin-left: 10px;
+   padding-bottom: 15px;
+   border-bottom: 1px solid #dbdbdb;
+   width: 90%;
+   font-size: 14px;
+ }
+.category-menu li{
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+}
+.category-menu li:last-child{
+  margin-bottom: 0;
+}
+.mega-menu{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  position: absolute;
+  z-index: 9;
+  left: 240px;
+  top: -10px;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition-duration: 0.4s;
+}
+.category-menu li:hover .mega-menu{
+  transform: scaleX(1);
+}

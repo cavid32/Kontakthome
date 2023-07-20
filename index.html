@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,30 +23,29 @@
 
 <body>
     <div class="section1">
-        <div class="container py-4">
+        <div class="container px-5 py-4">
             <div class="row d-flex justify-content-between">
                 <div class="col-5   d-flex text-center justify-content-between">
-                    <h1 class="fs-6  fw-light">Korporativ satışlar</h1>
-                    <h1 class="fs-6 fw-light">Mağazalar</h1>
-                    <h1 class="fs-6 fw-light">Servislər</h1>
-                    <h1 class="fs-6 fw-light">Tez-tez verilən suallar</h1>
+                    <span class="fs-12 fw-light">Korporativ satışlar</span>
+                    <span class="fs-12 fw-light">Mağazalar</span>
+                    <span class="fs-12 fw-light">Servislər</span>
+                    <span class="fs-12 fw-light">Tez-tez verilən suallar</span>
                 </div>
-                <div class="col-5 d-flex text-center justify-content-evenly">
+                <div class="col-3 align-items-center d-flex text-center justify-content-between">
                     <div class="text">
-                        <h1 class=" fs-5 fw-light text-success">Aylıq Ödəniş</h1>
+                        <span class=" fs-6 fw-light text-success">Aylıq Ödəniş</span>
                     </div>
                     <div class="icon">
-
-                        <i class="fa-regular fa-heart fs-3 "></i>
+                        <i class="fa-regular fa-heart fs-6 "></i>
                     </div>
                     <div class="icon">
-                        <i class="fa-solid fa-scale-balanced fs-3"></i>
+                        <i class="fa-solid fa-scale-balanced fs-6"></i>
                     </div>
                     <div class="text">
-                        <h1 class="fs-6 fw-bold">*6060</h1>
+                        <span class="fs-6 fw-bold">*6060</span>
                     </div>
-                    <div class="picture">
-                        <img src="./azerbaijan-flag-round-icon-256.webp" alt="">
+                    <div class="picture d-flex align-items-center g-2">
+                        <img class="me-2" src="./azerbaijan-flag-round-icon-256.webp" alt="">
                         <img src="./russia-flag-round-icon-256.webp" alt="">
                     </div>
                 </div>
@@ -49,155 +53,181 @@
         </div>
     </div>
     <div class="section2 py-3">
-        <div class="container">
+        <div class="container px-5">
             <div class="row">
-                <div class="col-4 d-flex justify-content-evenly">
+                <div class="col-2 d-flex">
                     <div class="text">
-                        <h1 class="fw-bold fs-4">Kontakt</h1>
+                        <span class="fw-bold fs-4">Kontakt</span>
                     </div>
-                    <div class="icon">
-
-                    </div>
-                    <div class="text">
-                        <h1 class="fs-6 fw-light">Menyu</h1>
-                    </div>
-
+                    <div class="icon"></div>
                 </div>
-                <div class="col-8 d-flex justify-content-between">
-
-                    <div class="input-group mb-3  w-50 h-25">
+                <div class="col-2 d-flex justify-content-center">
+                    <div class="text">
+                        <span class="fs-6 fw-light"> <i class="fa-solid fa-grip"></i> Menyu</span>
+                    </div>
+                </div>
+                <div class="col-5 d-flex justify-content-between">
+                    <div class="input-group mb-3  w-100 h-25">
                         <input type="text" class="form-control " placeholder="OPPO A77s 8/128 GB ORANGE"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <span class="input-group-text " id="basic-addon2"><i
                                 class="fa-solid fa-magnifying-glass "></i></span>
                     </div>
+                </div>
+                <div class="col-3 d-flex justify-content-end gap-3">
                     <div class="user d-flex gap-2 text-center">
                         <i class="fa-regular fa-user   fs-4"></i>
-                        <h1 class="fs-5">Daxil ol</h1>
+                        <span class="fs-6">Daxil ol</span>
                     </div>
                     <div class="basket d-flex justify-content-between gap-2">
                         <i class="fa-solid fa-basket-shopping fs-4"></i>
-                        <h1 class="fs-5">Səbət </h1>
+                        <span class="fs-6">Səbət </span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section3 py-2"> 
-        <div class="container">
+    <div class="section3 py-2">
+        <div class="container px-5">
             <div class="row">
                 <div class="col-3 ">
-                    <div class="button-1 w-75  border-black gap-3 ">
-                        <ul>
+                    <div style="width: 87%;" class="button-1 border-black gap-3 ">
+                        <ul class="p-2 category-menu">
                             <li>
                                 <img src="./Telefon.webp" alt="">
                                 <a href="">Smartfonlar</a>
+                                <div class="mega-menu">
+                                    <ul>
+                                        <li>
+                                            <img src="./Saat.webp" alt="">
+                                            <a href="">Smart qadjetlər</a>
 
+                                        </li>
+                                        <li>
+                                            <img src="./Komputer.webp" alt="">
+                                            <a class="" href="">Notbuklar, PK, planşetlər</a>
+                                        </li>
+                                        <li class="d-flex">
+                                            <img src="./soyuducu.webp" alt="">
+                                            <a class="d-flex">Mətbəx üçün məişət texnikası</a>
+                                        </li>
+                                        <li class="d-flex">
+                                            <img src="./Paltaryuyan-1.webp" alt="">
+                                            <a href="">Ev üçün məişət texnikaları</a>
+                                        </li>
+                                        <li>
+                                            <img src="./qab-qacaq-300x300.webp" alt="">
+                                            <a href="">Qab-qacaq</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
-
-                            <div class="xett w-75 "></div>
-
-                            <li class="d-flex">
+                            <li>
                                 <img src="./Saat.webp" alt="">
                                 <a href="">Smart qadjetlər</a>
+                                <div class="mega-menu">
+                                    <ul>
+                                        <li>
+                                            <img src="./Saat.webp" alt="">
+                                            <a href="">Smart qadjetlər</a>
 
+                                        </li>
+                                        <li>
+                                            <img src="./Komputer.webp" alt="">
+                                            <a class="" href="">Notbuklar, PK, planşetlər</a>
+                                        </li>
+                                        <li class="d-flex">
+                                            <img src="./soyuducu.webp" alt="">
+                                            <a class="d-flex">Mətbəx üçün məişət texnikası</a>
+                                        </li>
+                                        <li class="d-flex">
+                                            <img src="./Paltaryuyan-1.webp" alt="">
+                                            <a href="">Ev üçün məişət texnikaları</a>
+                                        </li>
+                                        <li>
+                                            <img src="./qab-qacaq-300x300.webp" alt="">
+                                            <a href="">Qab-qacaq</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
-                            <div class="xett w-75 "></div>
-
-                            <li class="d-flex">
+                            <li>
                                 <img src="./Komputer.webp" alt="">
                                 <a class="" href="">Notbuklar, PK, planşetlər</a>
+                                <div class="mega-menu">
+                                    <ul>
+                                        <li>
+                                            <img src="./Saat.webp" alt="">
+                                            <a href="">Smart qadjetlər</a>
 
+                                        </li>
+                                        <li>
+                                            <img src="./Komputer.webp" alt="">
+                                            <a class="" href="">Notbuklar, PK, planşetlər</a>
+                                        </li>
+                                        <li class="d-flex">
+                                            <img src="./soyuducu.webp" alt="">
+                                            <a class="d-flex">Mətbəx üçün məişət texnikası</a>
+                                        </li>
+                                        <li class="d-flex">
+                                            <img src="./Paltaryuyan-1.webp" alt="">
+                                            <a href="">Ev üçün məişət texnikaları</a>
+                                        </li>
+                                        <li>
+                                            <img src="./qab-qacaq-300x300.webp" alt="">
+                                            <a href="">Qab-qacaq</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li class="d-flex">
                                 <img src="./soyuducu.webp" alt="">
                                 <a class="d-flex">Mətbəx üçün məişət texnikası</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li class="d-flex">
                                 <img src="./Paltaryuyan-1.webp" alt="">
                                 <a href="">Ev üçün məişət texnikaları</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
-
-
                             <li>
                                 <img src="./qab-qacaq-300x300.webp" alt="">
                                 <a href="">Qab-qacaq</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li>
                                 <img src="./Televizor.webp" alt="">
                                 <a href="">TV, audio, video</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li>
                                 <img src="./Oyun.webp" alt="">
                                 <a href="">Hobbi və əyləncə</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li>
                                 <img src="./Alətlər.webp" alt="">
                                 <a href="">Alətlər</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li>
                                 <img src="./Avtomobil-2.webp" alt="">
                                 <a href="">Avtomobil məhsulları</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li>
                                 <img src="./Divan.webp" alt="">
                                 <a href="">Mebel və ev tekstili</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li>
                                 <img src="./Dipcək.webp" alt="">
                                 <a href="">Ev və bağ</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li>
                                 <img src="https://kontakt.az/wp-content/uploads/2023/05/Esas-ikonlar-21.svg" alt="">
                                 <a href="">Kosmetika və baxım</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li>
                                 <img src="./Canta.webp" alt="">
                                 <a href="">Uşaq aləmi</a>
-
                             </li>
-                            <div class="xett w-75 "></div>
-
                             <li>
                                 <img src="./29fafe3d-6095-4c2e-8fc1-39678474bb1b.webp" alt="">
                                 <a href="">KontaktPlus</a>
-
                             </li>
-
-
-
                         </ul>
                     </div>
                 </div>
@@ -251,27 +281,27 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="qapi mt-3 col-12 text-center justify-content-center d-flex flex-wrap gap-5">
-                                <div class="row">
+                            <div class="qapi mt-3 col-12 text-center justify-content-center d-flex flex-wrap gap-5 align-content-center" style="height: 125px;">
+                                <div class="row align-items-center">
                                     <div class="col-4">
-                                        <div class="div  ">
-                                            <img src=" ./qapi.webp" alt="">
-                                            <h1 class=" fw-bolder text-black fs-6">Qapıda rəsmiləşdirmə</h1>
-                                            <h1 class="fs-6">Nağd, hissə-hissə və ya kartla ödəmə imkanı ilə</h1>
+                                        <div class="div d-flex flex-column align-items-center    ">
+                                            <img class="object-fit-contain" style="width: 35px;" src=" ./qapi.webp" alt="">
+                                            <span class=" fw-bolder text-black fs-6">Qapıda rəsmiləşdirmə</span>
+                                            <span style="font-size: 12px;" >Nağd, hissə-hissə və ya kartla ödəmə imkanı ilə</span>
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="div ms-3  ">
-                                            <img src="./resmi.webp" alt="">
-                                            <h1 class=" fw-bolder fs-6 text-black">Rəsmi Zəmanət</h1>
-                                            <h1 class="fs-6">3 ilədək rəsmi zəmanət</h1>
+                                        <div class="div ms-3 d-flex flex-column align-items-center  ">
+                                            <img class="object-fit-contain " src="./resmi.webp" style="width: 35px;" alt="">
+                                            <span style="font-size: 12px;" class=" fw-bolder  text-black">Rəsmi Zəmanət</span>
+                                            <span style="font-size: 12px;">3 ilədək rəsmi zəmanət</span>
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="div ms-5 ">
-                                            <img src="./pulsuz.webp" alt="">
-                                            <h1 class="fw-bolder fs-6 text-black ">Pulsuz çatdırılma</h1>
-                                            <h1 class="fs-6">Sürətli, təhlükəsiz və təmassız</h1>
+                                        <div class="div ms-5 d-flex flex-column align-items-center ">
+                                            <img class="object-fit-contain " style="width: 35px;" src="./pulsuz.webp" alt="">
+                                            <span class="fw-bolder fs-6 text-black ">Pulsuz çatdırılma</span>
+                                            <span style="font-size: 12px;">Sürətli, təhlükəsiz və təmassız</span>
                                         </div>
                                     </div>
                                 </div>
@@ -281,26 +311,27 @@
                             <div class=" w-100 d-flex  flex-column gap-3 ">
 
                                 <div class="text">
-                                    <h1 class=" fs-6 text-black ">Kontakt Sevindirir</h1>
+                                    <span class=" fs-6 text-black ">Kontakt Sevindirir</span>
                                 </div>
-                                <div class=" d-flex  align-content-center gap-2 align-items-center   ">
-                                    <h1 class="fs-5 ">9 </h1>
+                                <class class=" d-flex  align-content-center gap-2 align-items-center   ">
+                                    <div class="div align-content-center d-flex flex-column align-items-center">
+                                    <span class="fs-5 ">9 </span>
                                     <h2 class="fs-6 ">saat</h2>
-                                    <div class="xett-1 align-content-center "></div>
-                                    <h1 class="fs-5 ">34</h1>
+                                </div>
+                                <div class="div align-content-center d-flex flex-column align-items-center">
+                                    
+                                    <span class="fs-5 ">34</span>
                                     <h2 class="fs-6 ">deqiqe</h2>
-                                    <div class="xett-1 "></div>
-                                    <h1 class="fs-5 ">36</h1>
+                                </div>
+                                 
+                                    
+                                    <div class="div align-content-center d-flex flex-column align-items-center">
+                                    <span class="fs-5 ">36</span>
                                     <h2 class="fs-6 ">saniye</h2>
                                 </div>
-                                <div class="div d-flex gap-5">
-                                    <div class="text-2">
-                                        <h1 class="fs-6">faizsiz </h1>
-                                    </div>
-                                    <div class="text-3">
-                                        <h1 class="fs-6 ">pulsuz catdirilma</h1>
-                                    </div>
-                                </div>
+                                </class>
+                               
+                                
                                 <div class="carousel">
                                     <div id="carouselExampleDark" class="carousel carousel-dark slide">
                                         <div class="carousel-indicators">
@@ -346,11 +377,11 @@
                                                         <p class="endirim-2 fw-bolder mb-5">649.99 azn</p>
                                                     </div>
                                                 </div>
-                                               
+
 
                                             </div>
-                                            
-           
+
+
                                         </div>
                                         <button class="carousel-control-prev" type="button"
                                             data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -362,140 +393,442 @@
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
-                                        
+
                                     </div>
-                                     
+
                                 </div>
-                                
+
                             </div>
-                            
+
                         </div>
                         <div class="col-6">
                             <div class="img mt-3">
                                 <img class="w-100" src="./29.webp" alt="">
                             </div>
-            
+
                         </div>
                         <div class="col-6  mt-3">
                             <div class="img">
                                 <img class="w-100 " src="./gala.webp" alt="">
-                                
+
                             </div>
-                        </div> 
+                        </div>
 
                     </div>
+                    
                 </div>
             </div>
         </div>
-        
+
     </div>
-    
+
     <div class="section4 py-2">
+
         <div class="container">
+            <span class="mt-3">Sizin üçün Seçdiklərimiz</span>
+            <div class="w-100">
+                <div id="sizinUcunKaruseli" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#sizinUcunKaruseli" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#sizinUcunKaruseli" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#sizinUcunKaruseli" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO RENO T5 5G 8/256 </h5>
+                                            <p class="card-text">1099.99 Azn</p>
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel2.webp" class="card-img-top" alt="...">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO A77s 8/128 GB Orange
+
+                                            </h5>
+                                            <p class="card-text">999.99 Azn</p>
+
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel3.webp" class="card-img-top" alt="...">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO A77s 8/128 GB Orange
+
+                                            </h5>
+                                            <p class="card-text">799.99 Azn</p>
+
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel4.webp" class="card-img-top" alt="...">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO A77s 8/128 GB Orange
+
+                                            </h5>
+                                            <p class="card-text">1299.99 Azn</p>
+
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel2.webp" class="card-img-top" alt="...">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO A77s 8/128 GB Orange
+
+                                            </h5>
+                                            <p class="card-text">999.99 Azn</p>
+
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel3.webp" class="card-img-top" alt="...">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO A77s 8/128 GB Orange
+
+                                            </h5>
+                                            <p class="card-text">799.99 Azn</p>
+
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel4.webp" class="card-img-top" alt="...">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO A77s 8/128 GB Orange
+
+                                            </h5>
+                                            <p class="card-text">1299.99 Azn</p>
+
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO RENO T5 5G 8/256 </h5>
+                                            <p class="card-text">1099.99 Azn</p>
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel3.webp" class="card-img-top" alt="...">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO A77s 8/128 GB Orange
+
+                                            </h5>
+                                            <p class="card-text">799.99 Azn</p>
+
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel4.webp" class="card-img-top" alt="...">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO A77s 8/128 GB Orange
+
+                                            </h5>
+                                            <p class="card-text">1299.99 Azn</p>
+
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel1.webp" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO RENO T5 5G 8/256 </h5>
+                                            <p class="card-text">1099.99 Azn</p>
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="card">
+                                        <div class="general d-flex gap-4">
+                                            <div class="text--1 m-4">
+                                                <span class="fs-6">faizsiz</span>
+                                            </div>
+                                            <div class="text--2 mt-4 mb-4">
+                                                <span class="">pulsuz catdirilma</span>
+                                            </div>
+                                        </div>
+                                        <img src="./tel2.webp" class="card-img-top" alt="...">
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">OPPO A77s 8/128 GB Orange
+
+                                            </h5>
+                                            <p class="card-text">999.99 Azn</p>
+
+                                            <a href="#" class="btn btn-success ">Sebete at</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="section5">
+        <div class="container">
+            <span class="mt-3">Sizin üçün Seçdiklərimiz</span>
             <div class="row">
                 <div class="col-3">
                     <div class="card">
                         <div class="general d-flex gap-4">
-                        <div class="text--1 m-4">
-                            <h1 class="fs-6">faizsiz</h1>
+                            <div class="text--1 m-4">
+                                <span class="fs-6">faizsiz</span>
+                            </div>
+                            <div class="text--2 mt-4 mb-4">
+                                <span class="">pulsuz catdirilma</span>
+                            </div>
                         </div>
-                        <div class="text--2 mt-4 mb-4">
-                            <h1 class="">pulsuz catdirilma</h1>
+                        <img src="./r1.webp" class="card-img-top" alt="...">
+
+                        <div class="card-body d-flex flex-wrap gap-3">
+                            <h5 class="card-title ">OPPO RENO T5 5G 8/256 </h5>
+                            <div class="line h-25">
+
+                            </div>
+                            <p class="card-text text-danger">nagd alisa -200</p>
+                            <p>0azn 0% 18ay </p>
+
+                            <a href="#" class="btn btn-success ">Sebete at</a>
                         </div>
                     </div>
-                        <img src="./tel1.webp" class="card-img-top" alt="...">
-                      
-                        <div class="card-body">
-                          <h5 class="card-title">OPPO RENO T5 5G 8/256 </h5>
-                          <p class="card-text">1099.99 Azn</p>
-                          
-                          <a href="#" class="btn btn-success ">Sebete at</a>
-                        </div>
-                      </div>
-                      
-                      
-            
+
+
+
                 </div>
                 <div class="col-3">
                     <div class="card">
                         <div class="general d-flex gap-4">
-                        <div class="text--1 m-4">
-                            <h1 class="fs-6">faizsiz</h1>
+                            <div class="text--1 m-4">
+                                <span class="fs-6">faizsiz</span>
+                            </div>
+                            <div class="text--2 mt-4 mb-4">
+                                <span class="">pulsuz catdirilma</span>
+                            </div>
                         </div>
-                        <div class="text--2 mt-4 mb-4">
-                            <h1 class="">pulsuz catdirilma</h1>
+                        <img src="./r2.webp" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">OPPO RENO T5 5G 8/256 </h5>
+                            <p class="card-text">1099.99 Azn</p>
+
+                            <a href="#" class="btn btn-success ">Sebete at</a>
                         </div>
                     </div>
-                        <img src="./tel2.webp" class="card-img-top" alt="...">
-                      
-                        <div class="card-body">
-                          <h5 class="card-title">OPPO A77s  8/128 GB Orange
 
-                          </h5>
-                          <p class="card-text">999.99 Azn</p>
-                          
-                          <a href="#" class="btn btn-success ">Sebete at</a>
-                        </div>
-                      </div>
-                      
-                      
-            
+
+
                 </div>
                 <div class="col-3">
                     <div class="card">
                         <div class="general d-flex gap-4">
-                        <div class="text--1 m-4">
-                            <h1 class="fs-6">faizsiz</h1>
+                            <div class="text--1 m-4">
+                                <span class="fs-6">faizsiz</span>
+                            </div>
+                            <div class="text--2 mt-4 mb-4">
+                                <span class="">pulsuz catdirilma</span>
+                            </div>
                         </div>
-                        <div class="text--2 mt-4 mb-4">
-                            <h1 class="">pulsuz catdirilma</h1>
+                        <img src="./r3.webp" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">OPPO RENO T5 5G 8/256 </h5>
+                            <p class="card-text">1099.99 Azn</p>
+
+                            <a href="#" class="btn btn-success ">Sebete at</a>
                         </div>
                     </div>
-                        <img src="./tel3.webp" class="card-img-top" alt="...">
-                      
-                        <div class="card-body">
-                          <h5 class="card-title">OPPO A77s  8/128 GB Orange
 
-                          </h5>
-                          <p class="card-text">799.99 Azn</p>
-                          
-                          <a href="#" class="btn btn-success ">Sebete at</a>
-                        </div>
-                      </div>
-                      
-                      
-            
+
+
                 </div>
                 <div class="col-3">
                     <div class="card">
                         <div class="general d-flex gap-4">
-                        <div class="text--1 m-4">
-                            <h1 class="fs-6">faizsiz</h1>
+                            <div class="text--1 m-4">
+                                <span class="fs-6">faizsiz</span>
+                            </div>
+                            <div class="text--2 mt-4 mb-4">
+                                <span class="">pulsuz catdirilma</span>
+                            </div>
                         </div>
-                        <div class="text--2 mt-4 mb-4">
-                            <h1 class="">pulsuz catdirilma</h1>
+                        <img src="./r4.webp" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title">OPPO RENO T5 5G 8/256 </h5>
+                            <p class="card-text">1099.99 Azn</p>
+
+                            <a href="#" class="btn btn-success ">Sebete at</a>
                         </div>
                     </div>
-                        <img src="./tel4.webp" class="card-img-top" alt="...">
-                      
-                        <div class="card-body">
-                          <h5 class="card-title">OPPO A77s  8/128 GB Orange
 
-                          </h5>
-                          <p class="card-text">1299.99 Azn</p>
-                          
-                          <a href="#" class="btn btn-success ">Sebete at</a>
-                        </div>
-                      </div>
-                      
-                      
-            
-                </div>
-                
+
+
                 </div>
             </div>
-        </div>
-        
+
 
 
 </body>
