@@ -109,7 +109,6 @@ font-size: 15px;
    display: flex;
    margin-left: 10px;
    padding-bottom: 15px;
-   border-bottom: 1px solid #dbdbdb;
    width: 90%;
    font-size: 14px;
  }
@@ -123,8 +122,8 @@ font-size: 15px;
 }
 .mega-menu{
   width: 500px;
-  height: 500px;
-  background-color: red;
+  background-color: white;
+  height: 1000px;
   position: absolute;
   z-index: 9;
   left: 240px;
@@ -132,6 +131,9 @@ font-size: 15px;
   transform-origin: left;
   transform: scaleX(0);
   transition-duration: 0.4s;
+}
+.mega-menu ul{
+  gap: 1px;
 }
 .category-menu li:hover .mega-menu{
   transform: scaleX(1);
