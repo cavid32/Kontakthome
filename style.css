@@ -138,3 +138,9 @@ font-size: 15px;
 .category-menu li:hover .mega-menu{
   transform: scaleX(1);
 }
+.card{
+  width: 250px;
+}
+.section7{
+  background-color: #253444;
+}
