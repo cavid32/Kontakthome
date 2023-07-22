@@ -1,5 +1,5 @@
 *{
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Montserrat', sans-serif;
 }
 .fs-12{
   font-size: 12px;
@@ -79,20 +79,37 @@
   border:1px solid #b9b9b9;
   cursor: pointer;
 }
-.text--1{
+.text--1 span{
   border: 1px solid red;
   border-radius: 5px;
-  width: 50px;
-  height: 22px;
-}
-.text--2{
-  border: 1px solid rgb(71, 71, 248);
-  border-radius: 5px;
-  height: 25  px;
-  
+  font-size: 10px;
+  padding: 1px 6px;
 }
 .text--2 span{
-font-size: 15px;
+  border: 1px solid rgb(71, 71, 248);
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 1px 6px;
+}
+.product-image{
+  width: 185px;
+  height: 185px;
+  max-width: 350px;
+  max-height: 350px;
+}
+.image{
+  width: 185px;
+  height: 185px;
+  max-width: 350px;
+  max-height: 350px;
+}
+.product-title{
+  font-size: 15px;
+  font-weight: 700;
+}
+.title{
+  font-size: 15px;
+  font-weight: 700;
 }
 .btn-success{
   cursor: pointer;
